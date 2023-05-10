@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="c78cd17e-eaf2-48a2-98c2-c8dc46732178" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8000/GetDataLib/GetDataService/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="01b83979-7f94-4667-8c46-9a3663cf3235" SourceId="1" SourceUrl="http://localhost:8000/GetDataLib/GetDataService/?xsd=xsd1" />
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="9d4b52a7-6a9b-48f3-92c3-e1275f180735" SourceId="1" SourceUrl="http://localhost:8000/GetDataLib/GetDataService/?disco" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="4c8dbc95-6756-4b31-95c4-8a55273f77ce" SourceId="1" SourceUrl="http://localhost:8000/GetDataLib/GetDataService/?xsd=xsd0" />
+    <MetadataFile FileName="item.wsdl" MetadataType="Wsdl" ID="2d2a5659-03bd-4009-81df-4cfec54d9172" SourceId="1" SourceUrl="http://localhost:8000/GetDataLib/GetDataService/?wsdl=wsdl0" />
+    <MetadataFile FileName="GetDataService.wsdl" MetadataType="Wsdl" ID="f2517d4f-5843-47e0-96dd-7ed36c413e30" SourceId="1" SourceUrl="http://localhost:8000/GetDataLib/GetDataService/?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

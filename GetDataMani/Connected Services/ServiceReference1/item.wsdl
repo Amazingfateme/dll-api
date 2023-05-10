@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://Microsoft.ServiceModel.Samples" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" targetNamespace="http://Microsoft.ServiceModel.Samples" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://Microsoft.ServiceModel.Samples/Imports">
+      <xsd:import schemaLocation="http://localhost:8000/GetDataLib/GetDataService/?xsd=xsd0" namespace="http://Microsoft.ServiceModel.Samples" />
+      <xsd:import schemaLocation="http://localhost:8000/GetDataLib/GetDataService/?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IGetData_GetAddressFileSRV_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAddressFileSRV" />
+  </wsdl:message>
+  <wsdl:message name="IGetData_GetAddressFileSRV_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAddressFileSRVResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGetData_GetAccountNum_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAccountNum" />
+  </wsdl:message>
+  <wsdl:message name="IGetData_GetAccountNum_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAccountNumResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGetData_GetPassword_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPassword" />
+  </wsdl:message>
+  <wsdl:message name="IGetData_GetPassword_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPasswordResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGetData_GetStatuseRUN_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetStatuseRUN" />
+  </wsdl:message>
+  <wsdl:message name="IGetData_GetStatuseRUN_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetStatuseRUNResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGetData_GetAccountType_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAccountType" />
+  </wsdl:message>
+  <wsdl:message name="IGetData_GetAccountType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAccountTypeResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IGetData">
+    <wsdl:operation name="GetAddressFileSRV">
+      <wsdl:input wsaw:Action="http://Microsoft.ServiceModel.Samples/IGetData/GetAddressFileSRV" message="tns:IGetData_GetAddressFileSRV_InputMessage" />
+      <wsdl:output wsaw:Action="http://Microsoft.ServiceModel.Samples/IGetData/GetAddressFileSRVResponse" message="tns:IGetData_GetAddressFileSRV_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAccountNum">
+      <wsdl:input wsaw:Action="http://Microsoft.ServiceModel.Samples/IGetData/GetAccountNum" message="tns:IGetData_GetAccountNum_InputMessage" />
+      <wsdl:output wsaw:Action="http://Microsoft.ServiceModel.Samples/IGetData/GetAccountNumResponse" message="tns:IGetData_GetAccountNum_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPassword">
+      <wsdl:input wsaw:Action="http://Microsoft.ServiceModel.Samples/IGetData/GetPassword" message="tns:IGetData_GetPassword_InputMessage" />
+      <wsdl:output wsaw:Action="http://Microsoft.ServiceModel.Samples/IGetData/GetPasswordResponse" message="tns:IGetData_GetPassword_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStatuseRUN">
+      <wsdl:input wsaw:Action="http://Microsoft.ServiceModel.Samples/IGetData/GetStatuseRUN" message="tns:IGetData_GetStatuseRUN_InputMessage" />
+      <wsdl:output wsaw:Action="http://Microsoft.ServiceModel.Samples/IGetData/GetStatuseRUNResponse" message="tns:IGetData_GetStatuseRUN_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAccountType">
+      <wsdl:input wsaw:Action="http://Microsoft.ServiceModel.Samples/IGetData/GetAccountType" message="tns:IGetData_GetAccountType_InputMessage" />
+      <wsdl:output wsaw:Action="http://Microsoft.ServiceModel.Samples/IGetData/GetAccountTypeResponse" message="tns:IGetData_GetAccountType_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

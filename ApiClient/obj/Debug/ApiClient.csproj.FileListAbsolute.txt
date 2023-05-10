@@ -1,0 +1,9 @@
+C:\Users\f.hashemi\source\repos\DLLExport1\ApiClient\bin\Debug\ApiClient.dll
+C:\Users\f.hashemi\source\repos\DLLExport1\ApiClient\bin\Debug\ApiClient.pdb
+C:\Users\f.hashemi\source\repos\DLLExport1\ApiClient\bin\Debug\TradingAPI.MT4Server.dll
+C:\Users\f.hashemi\source\repos\DLLExport1\ApiClient\bin\Debug\TradingAPI.MT4Server.pdb
+C:\Users\f.hashemi\source\repos\DLLExport1\ApiClient\obj\Debug\ApiClient.csproj.AssemblyReference.cache
+C:\Users\f.hashemi\source\repos\DLLExport1\ApiClient\obj\Debug\ApiClient.csproj.CoreCompileInputs.cache
+C:\Users\f.hashemi\source\repos\DLLExport1\ApiClient\obj\Debug\ApiClient.csproj.CopyComplete
+C:\Users\f.hashemi\source\repos\DLLExport1\ApiClient\obj\Debug\ApiClient.dll
+C:\Users\f.hashemi\source\repos\DLLExport1\ApiClient\obj\Debug\ApiClient.pdb

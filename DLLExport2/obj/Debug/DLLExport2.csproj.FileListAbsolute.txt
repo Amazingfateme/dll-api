@@ -1,0 +1,9 @@
+C:\Users\f.hashemi\source\repos\DLLExport1\DLLExport2\bin\Debug\DLLExport2.dll
+C:\Users\f.hashemi\source\repos\DLLExport1\DLLExport2\bin\Debug\DLLExport2.pdb
+C:\Users\f.hashemi\source\repos\DLLExport1\DLLExport2\bin\Debug\TradingAPI.MT4Server.dll
+C:\Users\f.hashemi\source\repos\DLLExport1\DLLExport2\bin\Debug\TradingAPI.MT4Server.pdb
+C:\Users\f.hashemi\source\repos\DLLExport1\DLLExport2\obj\Debug\DLLExport2.csproj.AssemblyReference.cache
+C:\Users\f.hashemi\source\repos\DLLExport1\DLLExport2\obj\Debug\DLLExport2.csproj.CoreCompileInputs.cache
+C:\Users\f.hashemi\source\repos\DLLExport1\DLLExport2\obj\Debug\DLLExport2.csproj.CopyComplete
+C:\Users\f.hashemi\source\repos\DLLExport1\DLLExport2\obj\Debug\DLLExport2.dll
+C:\Users\f.hashemi\source\repos\DLLExport1\DLLExport2\obj\Debug\DLLExport2.pdb
